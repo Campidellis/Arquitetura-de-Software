@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "meaIuNYw7r2wWv0o5L2ACJWEGCL+DGjcOt+/vKk9xzIyaAAxarm/v30QPODzal2rQiwl8G9DmbGy7FrF0nUyzg==",
+  "dgSpecHash": "iXAUxORjova97MjGE9KnDgA3hNCqjecfXJXB0mNl9yG6NPtqSOpS9J68aLfBgAopylAiiSe3MCS1Kq8e8y8MeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Laboratorio\\BSIStore\\BSIStore.csproj",
+  "projectFilePath": "C:\\flutter\\Victor\\BSIStore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

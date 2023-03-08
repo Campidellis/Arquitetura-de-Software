@@ -7,19 +7,25 @@ namespace BSIStore.Controllers
     {
         //  /HelloWorld
 
-        public string index()
+       /* public string index()
         {
              return "Essa é uma ação principal...";
+        }*/
+         public IActionResult index()
+        {
+             return View();
         }
     // /HelloWorld/Welcome
     /*public string Welcome()
     {
         return "Ação do método Welcome";
     }*/
-    public string Welcome(string nome, int ID=1)
+    public IActionResult Welcome(string nome, int ID=1)
     {
-        return HtmlEncoder.Default.Encode($"Nome: {nome}, ID: {ID}");
+       ViewData["Mensagem"] = "Ola "+nome;
+       ViewData["ID"] = ID;
 
+       return View();
     }
 }
 
